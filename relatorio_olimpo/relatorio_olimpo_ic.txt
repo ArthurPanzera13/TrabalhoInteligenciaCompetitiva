@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║        RELATÓRIO DE INTELIGÊNCIA COMPETITIVA — OLIMPO ESTÉTICA AUTOMOTIVA  ║
-║        Gerado em: 01/06/2026 22:11                                    ║
+║        Gerado em: 03/06/2026 16:48                                    ║
 ║        Fonte: Google Trends (pytrends 4.9.2) | Região: MG                  ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
@@ -43,26 +43,26 @@
 ────────────────────────────────────────────────────────────────────────
 
   Médias de interesse (12 meses):
-    ★ Vitrificação Automotiva             → 69.8/100
-      Polimento Automotivo                → 69.3/100
-      Higienização Automotiva             → 60.0/100
-      Lavagem Técnica Carro               → 42.6/100
-      Ppf Automotivo                      → 38.1/100
+    ★ Polimento Automotivo                → 3.1/100
+      Ppf Automotivo                      → 0.3/100
+      Vitrificação Automotiva             → 0.2/100
+      Higienização Automotiva             → 0.0/100
+      Lavagem Técnica Carro               → 0.0/100
 
   Variação de interesse (1ª vs 2ª metade do período):
-    ▲ Ppf Automotivo                      → +40%
-    ▲ Vitrificação Automotiva             → +22%
-    ▼ Lavagem Técnica Carro               → -5%
-    ▼ Higienização Automotiva             → -20%
-    ▼ Polimento Automotivo                → -24%
+    ▲ Ppf Automotivo                      → +59%
+    ▲ Vitrificação Automotiva             → +30%
+    ▲ Higienização Automotiva             → +0%
+    ▲ Lavagem Técnica Carro               → +0%
+    ▼ Polimento Automotivo                → -36%
 
-  ► INSIGHT 1: O serviço de maior volume absoluto é "Vitrificação Automotiva".
+  ► INSIGHT 1: O serviço de maior volume absoluto é "Polimento Automotivo".
   ► INSIGHT 2: O serviço com maior crescimento recente é "Ppf Automotivo"
-    (+40% na segunda metade do período vs. primeira).
+    (+59% na segunda metade do período vs. primeira).
     Isso indica uma janela de oportunidade: investir nesse serviço pode capturar
     demanda crescente antes que os concorrentes se posicionem.
   ► INSIGHT 3: "Polimento Automotivo" apresentou queda de interesse
-    (-24%), sugerindo saturação ou migração
+    (-36%), sugerindo saturação ou migração
     de preferência do consumidor. Avaliar repricing ou bundling com outros serviços.
 
 ────────────────────────────────────────────────────────────────────────
@@ -75,24 +75,24 @@
        Fev    → 0
        Mar    → 0
        Abr    → 0
-       Mai    → 1
+    🔴 Mai    → 4
        Jun    → 0
        Jul    → 0
-       Ago    → 2
+       Ago    → 0
        Set    → 0
        Out    → 0
        Nov    → 0
-    🔴 Dez    → 5
+       Dez    → 0
 
   Evolução anual (índice médio):
     2021: 0
-    2022: 1
-    2023: 2
+    2022: 0
+    2023: 0
     2024: 0
     2025: 0
-    2026: 1
+    2026: 5
 
-  ► INSIGHT 4: O mês de pico de demanda é Dez, com índice 5/100.
+  ► INSIGHT 4: O mês de pico de demanda é Mai, com índice 4/100.
     Recomenda-se acionamento máximo de freelancers e pré-agendamento a partir de outubro.
   ► INSIGHT 5: O mês de menor demanda é Jan (índice 0/100).
     Oportunidade para promoções de fidelização, treinamento e manutenção de equipamentos.
@@ -105,16 +105,8 @@
 ────────────────────────────────────────────────────────────────────────
 
   Top cidades por interesse em "estética automotiva":
-    ★ Uberaba                                  → 100/100
-      Contagem                                 → 86/100
-      Juiz de Fora                             → 76/100
-      Uberlândia                               → 76/100
-      Santa Luzia                              → 73/100
-      Belo Horizonte                           → 62/100
-      Betim                                    → 61/100
-      Montes Claros                            → 57/100
 
-  ► INSIGHT 7: Uberaba lidera com índice 100/100.
+  ► INSIGHT 7: N/D lidera com índice 0/100.
     A Olimpo deve avaliar se sua localização atual cobre essa demanda ou se
     há oportunidade de expansão / deslocamento até clientes nessa região.
 

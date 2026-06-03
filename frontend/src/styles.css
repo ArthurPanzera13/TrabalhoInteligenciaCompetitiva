@@ -188,6 +188,7 @@ label {
 }
 
 input,
+select,
 textarea {
   width: 100%;
   padding: 12px 14px;
@@ -200,6 +201,7 @@ textarea {
 }
 
 input:focus,
+select:focus,
 textarea:focus {
   outline: none;
   border-color: rgba(31, 111, 120, 0.45);
@@ -210,6 +212,26 @@ textarea:focus {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
+}
+
+.sectionInlineHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.sectionInlineHeader p {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.sectionActions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .primaryButton {
@@ -229,6 +251,29 @@ textarea:focus {
 .primaryButton:hover {
   transform: translateY(-1px);
   box-shadow: 0 22px 36px rgba(31, 111, 120, 0.28);
+}
+
+.secondaryButton,
+.ghostButton {
+  border: 1px solid rgba(20, 33, 61, 0.12);
+  border-radius: 999px;
+  padding: 10px 14px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--ink);
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.secondaryButton:hover,
+.ghostButton:hover {
+  transform: translateY(-1px);
+  border-color: rgba(31, 111, 120, 0.3);
+  box-shadow: 0 10px 24px rgba(20, 33, 61, 0.08);
+}
+
+.ghostButton {
+  padding-inline: 12px;
+  background: transparent;
 }
 
 .dashboardPanel {
@@ -327,6 +372,41 @@ textarea:focus {
 .chartsPanel {
   display: grid;
   gap: 14px;
+}
+
+.chartConfigList {
+  display: grid;
+  gap: 12px;
+}
+
+.chartConfigCard {
+  padding: 14px;
+  border-radius: 18px;
+  border: 1px solid rgba(20, 33, 61, 0.08);
+  background: rgba(255, 255, 255, 0.72);
+  display: grid;
+  gap: 12px;
+}
+
+.chartConfigHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.chartConfigHeader strong {
+  font-size: 0.95rem;
+}
+
+.chartConfigGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.chartConfigGrid label {
+  margin-bottom: 6px;
 }
 
 .compiledPanel {
@@ -446,8 +526,10 @@ textarea:focus {
 }
 
 .chartCard {
-  padding: 16px;
+  padding: 18px;
   border-radius: 24px;
+  display: grid;
+  gap: 12px;
 }
 
 .chartCardFeatured {
@@ -479,11 +561,25 @@ textarea:focus {
   font-size: 1rem;
 }
 
-.chartCard img {
-  width: 100%;
+.chartSourceMeta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.chartEmpty {
+  min-height: 320px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 24px;
   border-radius: 18px;
-  border: 1px solid rgba(20, 33, 61, 0.08);
-  background: white;
+  border: 1px dashed rgba(20, 33, 61, 0.18);
+  background: rgba(255, 255, 255, 0.54);
+  color: var(--muted);
 }
 
 .errorCard {
@@ -505,6 +601,10 @@ textarea:focus {
   .controlPanel {
     position: static;
   }
+
+  .chartConfigGrid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 720px) {
@@ -521,6 +621,24 @@ textarea:focus {
   .compiledPanel,
   .chartCard {
     border-radius: 20px;
+  }
+
+  .sectionInlineHeader,
+  .chartConfigHeader {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .sectionActions {
+    justify-content: stretch;
+  }
+
+  .sectionActions > * {
+    width: 100%;
+  }
+
+  .chartCardFeatured {
+    grid-column: span 1;
   }
 
   .fieldRow,
